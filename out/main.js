@@ -53,12 +53,5 @@ class PgnParser extends PgnParserUtils_1.PgnParserUtils {
         let score = this.PGN.getScore(Json);
         return (tags + "\n" + moves + score);
     }
-    toFEN(Pgn, move) {
-        this.FEN.run();
-    }
 }
-let parser = new PgnParser();
-let pgn2Json = parser.toJSON("C:\\Users\\Ashp1\\Downloads\\node-pgn-parser\\lichess_pgn_2021.08.12_thyrgle_vs_Ashp116.fUraDroO.pgn");
-let Json2pgn = parser.toPGN("C:\\Users\\Ashp1\\Downloads\\node-pgn-parser\\test\\Pgn.json");
-let FEN = parser.toFEN();
 exports.ParsePgn = new PgnParser();

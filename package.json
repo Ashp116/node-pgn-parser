@@ -18,8 +18,13 @@
   },
   "homepage": "https://github.com/Ashp116/node-pgn-parser#readme",
   "dependencies": {
+    "node-pgn-parser": "^1.0.0",
     "node-xml-to-js": "^1.0.4",
     "node-xml-to-json": "^1.1.6"
   },
-  "keywords": ["PGN", "Chess", "Parser"]
+  "keywords": [
+    "PGN",
+    "Chess",
+    "Parser"
+  ]
 }
